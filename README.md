@@ -1,30 +1,16 @@
-Travlr
-Overview
+# Travlr
 
-Travlr is a web application built with Node.js and Express.js. The project is designed to demonstrate how to set up a full Express application with routing, middleware, templates, and error handling. It follows a modular structure and serves as a strong foundation for building larger web applications.
+[![Node.js](https://img.shields.io/badge/Node.js-%E2%89%A518-brightgreen)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express-4.x-lightgrey)](https://expressjs.com/)
+[![Handlebars](https://img.shields.io/badge/View%20engine-hbs-orange)](https://www.npmjs.com/package/hbs)
+[![Code Style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 
-Features
+Minimal Node.js + Express app with Handlebars, middleware, and clean 404/error handling.
 
-Express.js app with modular route handling (/ and /users)
-
-Handlebars (hbs) view engine for templating
-
-Middleware setup for logging, cookies, static assets, and JSON parsing
-
-Error handling for 404 pages and server errors
-
-Organized project structure with routes, views, and public directories
-
-Tech Stack
-
-Node.js – runtime environment
-
-Express.js – web framework
-
-Morgan – HTTP request logger
-
-Cookie-Parser – cookie handling
-
-Handlebars (hbs) – view engine
-
-
+## Quick Start
+```bash
+npm install
+npm start      # http://localhost:3000
+# dev: nodemon
+npm run dev
